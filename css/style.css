@@ -1,0 +1,671 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/* navbar section  */
+
+.navbar {
+    padding: 20px;
+    background: #11752a;
+}
+
+.navbar .navbar-toggler {
+    color: #4b8a04 !important;
+    background: #4b8a04;
+    border-radius: 50%;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+
+.navbar #navbarNav {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.navbar .navbar-brand {
+    color: #f1f1f1;
+    font-size: 30px;
+    margin-left: 0px;
+    font-weight: 600;
+}
+
+.navbar .navbar-brand i {
+    font-size: 25px;
+    background: #0da015;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.navbar .collapse {
+    background: #4b8a04;
+    border-radius: 15px;
+}
+
+.navbar .dropdown-menu{
+    width: 12px;
+}
+
+.navbar .dropdown-menu li a{
+    color: #1c456d;
+    font-size: 15px;
+}
+
+.navbar ul li .bi{
+    background: #fff;
+    color: #1c456d;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 50%;
+}
+
+.navbar ul li a {
+    color: #f1f1f1;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 18px;
+    margin-right: 40px;
+}
+
+.navbar ul li a:hover {
+    color: #FFA500;
+}
+
+.name{
+    font-size: 30px;
+    background-color: #2B547E;
+    color: #FFA500;
+    padding: 50px;
+}
+
+.navbar-section {
+    position: sticky;
+    top: 0;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    background-color: white; /* Ensures the background is visible when sticky */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: Adds a shadow effect */
+}
+
+
+/* hero section  */
+
+.hero-section {
+    padding: 20px;
+    background: #54863c;
+}
+
+.hero-section .text-content {
+    margin-top: 130px;
+}
+
+.hero-section h1 {
+    font-size: 60px;
+    color: #f2ff7c;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.hero-section p {
+    margin-top: 20px;
+    color: #f8f8f8;
+    font-size: 18px;
+}
+
+.hero-section button {
+    font-weight: bold;
+    margin-top: 20px;
+    border-radius: 30px;
+    background-color: #FFA500;
+    height: 50px;
+    width: 170px;
+}
+
+.hero-section button:hover {
+    border: 1px solid #FFA500;
+    background: #2B547E;
+}
+
+.hero-section button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.hero-section img {
+    height: 610px;
+    width: 1000px;
+}
+
+/* our product section  */
+
+.services-section {
+    padding: 100px;
+    background-color: #dddddd;
+}
+
+
+
+.services-section .services .row1 {
+    margin-bottom: 40px;
+}
+
+.services-section .services .card {
+    border: none;
+    border-radius: 15px;
+    width: 280px;
+    height: 320px;
+    padding: 10px;
+    cursor: pointer;
+    background: transparent;
+    box-shadow: 8px 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.services-section .services .card img {
+    border-radius: 40%;
+    width: 150px;
+    height: 150px;
+    padding: 1px;
+    margin-left: 25px;
+    margin-top: 10px;
+    background: #000000;
+}
+
+
+.services-section .services .card:hover {
+    background-color: #4b8a04;
+    color: #fff;
+    transform: scale(1.1);
+}
+
+.services-section .services .card:hover h4 {
+    color: #000000;
+}
+
+.services-section .services .card:hover p {
+    color: #ffffff;
+}
+
+.services-section .services .card h4 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #555;
+    margin-top: 18px;
+}
+
+.services-section .services .card p {
+    font-size: 15px;
+    color: #777;
+    margin-top: 15px;
+}
+
+.services-section .text-content {
+    margin-top: 80px;
+}
+
+.services-section .text-content hr {
+    height: 5px;
+    background-color: #181717;
+    border: none;
+}
+
+.services-section .text-content h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #FFA500;
+    font-weight: 600;
+    margin-left: 30px;
+}
+
+.services-section .text-content h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #1c456d;
+}
+
+.services-section .text-content p {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #555;
+}
+
+.services-section .text-content button {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #000000;
+    background-color: #FFA500;
+    height: 50px;
+    width: 170px;
+    font-weight: bold;
+}
+
+.services-section .text-content button:hover {
+    background-color: #000000;
+    border: 2px solid #000000;
+    color: #FFA500;
+}
+
+/* about section  */
+
+.about-section {
+    padding: 100px;
+}
+
+.about-section img {
+    height: 500px;
+    width: 700px;
+    margin-top: 25px;
+    border-radius: 40px;
+}
+
+/* .about-section img:hover {
+    transform: scale(0.9);
+    cursor: pointer;
+} */
+
+.about-section .text-content h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #FFA500;
+    font-weight: 600;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.about-section .text-content h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    font-weight: bold;
+    margin-left: 30px;
+    color: #1c456d;
+}
+
+.about-section .text-content p {
+    font-size: 17px;
+    margin-top: 50px;
+    margin-left: 30px;
+    color: #555;
+}
+
+.about-section .text-content button {
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    background-color: #2B547E;
+    height: 50px;
+    width: 170px;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.about-section .text-content button:hover {
+    background-color: #fff;
+    border: 2px solid #2B547E;
+    color: #2B547E;
+}
+
+/* What we have section  */
+
+.project-section {
+    background-color: #088F8F;
+    padding: 90px;
+    /* height: 100vh; */
+}
+
+.project-section .text h3 {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: #FFA500;
+    font-weight: 600;
+}
+
+.project-section .text h1 {
+    font-size: 45px;
+    font-weight: bold;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.project-section hr {
+    height: 2px;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.project-section .text p {
+    font-size: 18px;
+    color: #d1d1d1;
+}
+
+.project-section .project .card {
+    height: 450px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: none;
+    margin-left: 30px;
+    box-shadow: 8px 8px 10px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.card img {
+    width: 100%;
+    height: 50%; 
+}
+
+
+.project-section .project .card:hover {
+    transform: scale(1.2);
+}
+
+.project-section .project .card h4 {
+    font-size: 20px;
+    color: #1c456d;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.project-section .project .card p {
+    font-size: 15px;
+    color: #555555;
+    margin-left: 0;
+    margin-top: 10px;
+}
+
+.project-section .project .card button {
+    margin-top: 10px;
+    border-radius: 30px;
+    color: #fff;
+    border: none;
+    background-color: #088F8F;
+    height: 40px;
+    width: 120px;
+    text-transform: capitalize;
+}
+
+.project-section .project .card button:hover {
+    background-color: #fff;
+    border: 2px solid #088F8F;
+    color: #088F8F;
+}
+
+/* contact section  */
+
+.contact-section {
+    background: #54863c;
+    padding: 100px;
+}
+
+.contact-section h1 {
+    margin-top: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: bold;
+    color: #f2ff7c;
+    margin-bottom: 100px;
+}
+
+.contact-section .info-box {
+    background-color: transparent;
+    border: none;
+    height: 200px;
+    width: 230px;
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 3px 3px 10px rgba(255, 255, 255, 0.918);
+}
+
+.contact-section .info-box .bi {
+    background: #f2ff7c;
+    border-radius: 55%;
+    padding: 15px 18px;
+    color: #000000;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-section .info-box h3 {
+    font-size: 25px;
+    margin-top: 30px;
+    font-weight: 600;
+}
+
+.contact-section .info-box p {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+.contact-section .info-box:hover {
+    background: #088F8F;
+    color: #fff;
+    transform: scale(0.9);
+}
+
+.contact-section .info-box:hover p {
+    color: #f1f1f1;
+}
+
+.contact-section .info-box:hover .bi {
+    background: #fff;
+    color: #088F8F;
+    font-size: 25px;
+    text-align: center;
+}
+
+.contact-section .form {
+    margin-top: 50px;
+}
+
+.contact-section form input,
+.contact-section form textarea {
+    margin-top: 10px;
+    border: none;
+    background: #cad37d;
+    color: #184205;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.contact-section form button {
+    margin-top: 20px;
+    border-radius: 30px;
+    color: #000000;
+    border: none;
+    background-color: #FFA500;
+    height: 50px;
+    font-weight: bold;
+    width: 170px;
+    text-transform: capitalize;
+}
+
+.contact-section form button:hover {
+    background-color: #000000;
+    color: #FFA500;
+}
+
+/* footer section  */
+
+footer {
+    padding: 40px;
+    background: #11752a;
+}
+
+footer .logo {
+    font-size: 30px;
+    color: #fff;
+    font-weight: 600;
+}
+
+footer .logo i {
+    font-size: 25px;
+    background: #0da015;
+    border-radius: 50%;
+    padding: 10px 15px;
+    margin-left: -10px;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 31px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 25px;
+    font-size: 14px;
+    text-transform: capitalize;
+    font-weight: 500;
+}
+
+footer ul li a:hover {
+    color: #FFA500;
+}
+
+footer p {
+    color: #fff;
+    margin-top: 31px;
+    font-size: 15px;
+    margin-left: 31px;
+}
+
+.back-to-top {
+    background: #4b8a04;
+    height: 50px;
+    width: 50px;
+    color: rgb(255, 253, 253);
+    margin-top: 23px;
+    border-radius: 50%;
+    font-size: 50px;
+}
+
+@media (max-width:700px) {
+
+    .hero-section img {
+        height: 350px;
+        margin-top: 50px;
+    }
+
+    .services-section .services .card {
+        margin-bottom: 50px;
+    }
+
+    .services-section .services .row1 {
+        margin-bottom: 0px;
+    }
+
+    .about-section{
+        padding: 50px 30px;
+    }
+    .about-section img {
+        height: 300px;
+    }
+
+    .contact-section{
+        padding: 50px;
+    }
+
+    footer ul li a {
+        margin-left: 5px;
+        letter-spacing: 0;
+    }
+}
+
+
+
+
+
+/* home page  */
+
+.nav {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 60px;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.logo a {
+    text-decoration: none;
+    color: #000;
+}
+
+.right-links a {
+    padding: 0 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main-box .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.name{
+    font-size: 30px;
+    padding: 5px;
+}
+@media only screen and (max-width: 840px) {
+    .main-box .top {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .top .box {
+        margin: 10px 10px;
+    }
+
+    .bottom {
+        margin-top: 0;
+    }
+}
+
+
+.message {
+    text-align: left;
+    /* background: #f9ede4; */
+    padding: 15px 0px;
+    /* border: 1px solid #699062; */
+    /* border-radius: 5px; */
+    /* margin-bottom: 10px; */
+    color: rebeccapurple;
+}

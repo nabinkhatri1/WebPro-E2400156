@@ -1,0 +1,101 @@
+/* Styling for the company name */
+.company-name {
+    font-size: 2rem;
+    color: #d3e0d3; /* Dark green color */
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Styling for the Home link */
+.home-link {
+    font-size: 1.2rem;
+    color: #0a4e0a;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #F0FFF0;
+    border: 2px solid #228B22; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Hover effect for the Home link */
+
+.home-link:hover {
+    background-color: #228B22; 
+    color: #c0e9a6;
+}
+
+
+
+
+body{
+    background-color: darkolivegreen;
+}
+
+.container{
+    margin: 45px 0 0 200px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container img{
+    width: 10%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover{
+    width: 25%;
+}
+.company-name h3{
+    color: #F0FFF0;
+}
+
+/* Footer Section */
+footer {
+    background-color: #004d00;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.company-name h3 {
+    font-size: 24px;
+    margin: 0;
+    color: white;
+}
+
+.company-contact p {
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.company-contact a {
+    margin: 0 10px;
+}
+
+.company-contact a img {
+    width: 30px;
+    transition: transform 0.3s ease;
+}
+
+.company-contact a img:hover {
+    transform: scale(1.2);
+}
+
+.company-contact p:last-child {
+    margin-top: 10px;
+    font-size: 14px;
+    color: white;
+}
